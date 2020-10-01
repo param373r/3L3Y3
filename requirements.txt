@@ -1,0 +1,9 @@
+#   Inbuilt Packages of Python used:
+#
+#   socket
+#   optparse
+#   threading
+#
+#   'pip install' these...
+
+termcolor==1.1.0

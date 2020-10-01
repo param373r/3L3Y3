@@ -6,7 +6,7 @@ Spelled _Eli_, is a port scanner to scan the network. Ranging from individual IP
 The main reason for me to create this tool was frustration...That of nmap pings getting blocked everytime I went to test a website. So I thought to create a private tool which instead of sending packets with NMAP signature on them, will send a blank requests to ports which will not get blocked by the server. Plus point: This is less suspicious than nmapping the host.  
 
 
-__Important__: _The tool may hault in the middle of processing, while scanning large websites like google and Ctrl + c seems like it might not working,but DO NOT PANIC... Just open a new tab window and continue your work there... It's because of a recent update I made to the tool which makes ongoing processing work in threads, and wait for the rest of the threads to finish so it can exit neatly_. Below are some more features of the tool:
+__Important__: _The tool may hault in the middle of processing, while scanning large websites like google and Ctrl + c seems like it might not working (which in actlual is not true, it did its work by sending the exit signal),but DO NOT PANIC... Just open a new tab window and continue your work there... It's because of a recent update I made to the tool which makes ongoing processing work in threads, and wait for the rest of the threads to finish so it can exit neatly_. Below are some more features of the tool:
 
   - It's light-weight, easy to use, compact, can be easily installed in _termux_ awa _Nethunter_.
   - Cleanly Maintained (with colored outputs)

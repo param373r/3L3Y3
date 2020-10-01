@@ -12,4 +12,17 @@ __Important__: The main reason for me to create this tool was frustration...That
   
 I tried to customize this scanner as much as possible, and made it very detailed as well. But one issue you will notice is... It is kinda slow, honestly it might take you about 10 minutes to scan the top200 ports. I countered that with threading, which reduced it by 3 more minutes. Honestly, I am trying to reduce it even further, will update the tool as soon as I get the solution. If you could help me, improve the tool feel free to mail your ideas/code snippet [here](mailto:theprojax@protonmail.com). 
 
+## Installation
+
+Installing it is pretty simple... Just copy the steps down into your terminal in order to install this script.
+
+- git clone https://github.com/belikeParamjot/3L3Y3.git
+- cd 3L3Y3/
+- pip install -r requirements.txt
+- sudo cp eli.py /usr/bin/eli
+- cd ..
+- sudo rm -r 3L3Y3/
+
+This is it you've made a clean installation of the script. Run the script by just typing ```eli --help```.
+
 ## Usage and Features

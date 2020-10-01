@@ -16,12 +16,12 @@ I tried to customize this scanner as much as possible, and made it very detailed
 
 Installing it is pretty simple... Just copy the steps down into your terminal in order to install this script.
 
-- git clone https://github.com/belikeParamjot/3L3Y3.git
-- cd 3L3Y3/
-- pip install -r requirements.txt
-- sudo cp eli.py /usr/bin/eli
-- cd ..
-- sudo rm -r 3L3Y3/
+- ```git clone https://github.com/belikeParamjot/3L3Y3.git```
+- ```cd 3L3Y3/```
+- ```pip install -r requirements.txt```
+- ```sudo cp eli.py /usr/bin/eli```
+- ```cd ..```
+- ```sudo rm -r 3L3Y3/```
 
 This is it you've made a clean installation of the script. Run the script by just typing ```eli --help```.
 

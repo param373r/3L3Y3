@@ -20,6 +20,7 @@ Installing it is pretty simple... Just copy the steps down into your terminal in
 - ```cd 3L3Y3/```
 - ```pip install -r requirements.txt```
 - ```sudo cp eli.py /usr/bin/eli```
+- ``` chmod +x /usr/bin/eli```
 - ```cd ..```
 - ```sudo rm -r 3L3Y3/```
 

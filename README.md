@@ -1,6 +1,6 @@
 # 3L3Y3
 
-Spelled _Eli_, and is a port scanner to scan the network. Ranging from individual IP addresses to scanning the whole website for open ports, _eli_ can be pretty efficient at this. Feel free to use and modify the tool under MIT License.
+Spelled _Eli_, is a port scanner to scan the network. Ranging from individual IP addresses to scanning the whole website for open ports, _eli_ can be pretty efficient at this. Feel free to use and modify the tool under MIT License.
 
 ## About
 __Important__: The main reason for me to create this tool was frustration...That of nmap pings getting blocked everytime I went to test a website. So I thought to create a private tool which instead of sending packets with NMAP signature on them, will send a blank requests to ports which will not get blocked by the server. Plus point: This is less suspicious than nmapping the host. Below is some more about the tool
@@ -20,7 +20,7 @@ Installing it is pretty simple... Just copy the steps down into your terminal in
 - ```cd 3L3Y3/```
 - ```pip install -r requirements.txt```
 - ```sudo cp eli.py /usr/bin/eli```
-- ``` chmod +x /usr/bin/eli```
+- ```sudo chmod +x /usr/bin/eli```
 - ```cd ..```
 - ```sudo rm -r 3L3Y3/```
 

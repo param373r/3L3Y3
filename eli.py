@@ -1,12 +1,12 @@
 #!/usr/bin/python
 
 ### Project: 3L3Y3 Scanner
-### Author: belikeParamjot aka TheProJ4X0N
+### Author: param373r pka belikeParamjot apka TheProJ4X0N
 
 ### Find me on following media:
-###### Twitter: @belikeParamjot
-###### Instagram: @belikeParamjot
-###### Medium: @belikeParamjot
+###### Twitter: @param373r
+###### Instagram: @param373r
+###### Medium: @param373r
 
 from socket import *
 import optparse
